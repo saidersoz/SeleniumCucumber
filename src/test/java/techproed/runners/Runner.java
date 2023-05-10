@@ -13,7 +13,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 //Seneryoların nerede ve nasıl çalışacağı, hangi raporu kullanacağıyla alakalı seçenekleri ayarlarız
-@CucumberOptions(features = "",
+@CucumberOptions(features = "src/test/resources/features/day30_ilkFeature",
         glue = {"techproed/stepDefinitions"},//Bu parametre ile kodlarımızı yazdığımız stepDefinition
         //class'ının packege'ını belirtiriz
         tags = "@gr1 and @sgl"  )
