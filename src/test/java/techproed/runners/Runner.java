@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/features/day30_ilkFeature",
         glue = {"techproed/stepDefinitions"},//Bu parametre ile kodlarımızı yazdığımız stepDefinition
         //class'ının packege'ını belirtiriz
-        tags = "@gr1 and @sgl"  )
+        tags = "@gr1 and @sql"  )
 /*
 features ===> features'ların olduğu packega'ın yolunu ver(ContentRoot)
 glue ====> stepDefinition'ların olduğu packega'ın yolunu ver(Source Root)

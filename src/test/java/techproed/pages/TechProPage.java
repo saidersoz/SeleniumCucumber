@@ -11,9 +11,6 @@ public class TechProPage {
         PageFactory.initElements(Driver.getDriver(), this);
     }
 
-    /*
-
-     */
     @FindBy(xpath = "//*[@class='eicon-close']")
     public WebElement reklam;
 
