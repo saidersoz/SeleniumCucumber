@@ -2,6 +2,7 @@ package techproed.stepDefinitions;
 
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Given;
+import io.cucumber.java.en.Then;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import techproed.pages.TechProPage;
@@ -20,12 +21,17 @@ public class TechProStepDefinition {
     @And("arama_kutusunda_qa_aratir")
     public void arama_kutusunda_qa_aratir() {
         techProPage = new TechProPage();
-        techProPage.reklam.click();
         techProPage.searchBox.sendKeys("qa" + Keys.ENTER);
     }
 
     @And("sayfa_basliginin_qa_icerdigini_test_eder")
     public void sayfa_basliginin_qa_icerdigini_test_eder() {
         Assert.assertTrue((Driver.getDriver().getTitle()).contains("qa"));
+    }
+
+    @Then("cikan_reklam_kapatilir")
+    public void cikan_reklam_kapatilir() {
+        techProPage = new TechProPage();
+        techProPage.reklam.click();
     }
 }
