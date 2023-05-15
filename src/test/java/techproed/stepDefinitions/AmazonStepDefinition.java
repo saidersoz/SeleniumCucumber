@@ -16,15 +16,17 @@ public class AmazonStepDefinition {
         Driver.getDriver().get(ConfigReader.getProperty("amazon_Url"));
     }
 
-    @And("arama_kutusunda_iphone_aratir")
-    public void arama_kutusunda_iphone_aratir() {
-        amazonPage = new AmazonPage();
-        amazonPage.aramaKutusu.sendKeys("iphone" + Keys.ENTER);
-    }
 
     @And("sayfayi_kapatir")
     public void sayfayi_kapatir() {
         Driver.closeDriver();
+    }
+
+
+    @And("arama_kutusunda_iphone_aratir")
+    public void arama_kutusunda_iphone_aratir() {
+        amazonPage = new AmazonPage();
+        amazonPage.aramaKutusu.sendKeys("iphone" + Keys.ENTER);
     }
 
     @And("arama_kutusunda_Selenium_aratir")

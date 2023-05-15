@@ -13,14 +13,17 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 //Seneryoların nerede ve nasıl çalışacağı, hangi raporu kullanacağıyla alakalı seçenekleri ayarlarız
-@CucumberOptions(features = "src/test/resources/features/day30_ilkFeature",
+@CucumberOptions(features = "src/test/resources/features",
         glue = {"techproed.stepDefinitions"},//Bu parametre ile kodlarımızı yazdığımız stepDefinition
         //class'ının packege'ını belirtiriz
-        tags = "@TC03"  )
+        tags = "@GoogleSearch",
+        dryRun = false    )
 /*
 features ===> features'ların olduğu packega'ın yolunu ver(ContentRoot)
 glue ====> stepDefinition'ların olduğu packega'ın yolunu ver(Source Root)
 tags ====> çalıştırmak istediğin grubu yaz
+dryRun = true ====> Missing Step Definition(Eksik) tespiti için kullanılır.
+dryRun = true ====>
  */
 
 
