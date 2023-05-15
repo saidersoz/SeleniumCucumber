@@ -16,7 +16,7 @@ import org.junit.runner.RunWith;
 @CucumberOptions(features = "src/test/resources/features",
         glue = {"techproed.stepDefinitions"},//Bu parametre ile kodlarımızı yazdığımız stepDefinition
         //class'ının packege'ını belirtiriz
-        tags = "@GoogleSearch",
+        tags = "@GoogleSearchScenarioOutline",
         dryRun = false    )
 /*
 features ===> features'ların olduğu packega'ın yolunu ver(ContentRoot)
