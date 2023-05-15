@@ -10,6 +10,7 @@ Feature:US001_Amazon_Sayfasinda_Urun_Aratma
     And arama_kutusunda_Java_aratir
     And sayfayi_kapatir
 
+    @TC03
   Scenario: TC03_Amazon_sayfasinda_SQL_Aratma
     Given kullanici_amazon_sayfasina_gider
     And arama_kutusunda_sql_aratir
