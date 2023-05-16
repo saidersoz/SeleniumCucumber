@@ -13,7 +13,16 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 //Seneryoların nerede ve nasıl çalışacağı, hangi raporu kullanacağıyla alakalı seçenekleri ayarlarız
-@CucumberOptions(features = "src/test/resources/features",
+@CucumberOptions(
+        plugin = {
+                "pretty", //Konsolu renklendirir
+                "html:target/default-cucumber-reports.html",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml"
+        },
+
+        monochrome = false, //Konsolu okunaklı hale getirir!
+        features = "src/test/resources/features",
         glue = {"techproed.stepDefinitions"},//Bu parametre ile kodlarımızı yazdığımız stepDefinition
         //class'ının packege'ını belirtiriz
         tags = "@MedunnaRoom",

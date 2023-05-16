@@ -1,6 +1,6 @@
 @MedunnaRoom
 Feature: Medunna Oda olusturma
-  ​
+
   Background: Admin olarak giris yap
     Given "https://www.medunna.com/" adresine git
     When kullanici simgesini tikla
@@ -23,7 +23,7 @@ Feature: Medunna Oda olusturma
     And sayfayi_kapatir
     Examples:
       | roomNumber | Room Type      | price | description   |
-      | 784732599  | DELUXE         | 10    | Temiz Oda     |
-      | 623756786  | PREMIUM_DELUXE | 11    | Güzel Oda     |
-      | 213548778  | SUITE          | 19    | Manzaralı Oda |
-      | 376352371  | DAYCARE        | 12    | Temiz Oda     |
+      | 745323478  | DELUXE         | 10    | Temiz Oda     |
+      | 624237442  | PREMIUM_DELUXE | 11    | Güzel Oda     |
+      | 453238858  | SUITE          | 19    | Manzaralı Oda |
+      | 354322371  | DAYCARE        | 12    | Temiz Oda     |

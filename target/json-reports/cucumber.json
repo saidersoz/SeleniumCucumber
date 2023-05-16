@@ -1,0 +1,1106 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Admin olarak giris yap",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10239149700,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"https://www.medunna.com/\" adresine git",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.medunna.com/\"",
+                  "offset": 0
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.adresine_git(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 585498000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici simgesini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.kullanici_simgesini_tikla()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 601173300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sign in secenegini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.sign_in_secenegini_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 585473700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "username kutusuna \"mark_twain\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mark_twain\"",
+                  "offset": 18
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.username_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 601132300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "password kutusuna \"Mark.123\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mark.123\"",
+                  "offset": 18
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.password_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 578470100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "remember me radio butonuna tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.remember_me_radio_butonuna_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 561988000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sign in butonuna tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.sign_in_butonuna_tikla()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-16T21:45:20.513Z",
+        "line": 26,
+        "name": "Oda olustur",
+        "description": "",
+        "id": "medunna-oda-olusturma;oda-olustur;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 550845500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "items&titles sekmesini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.items_titles_sekmesini_tikla()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 598923500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "room secenegini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_secenegini_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579693200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "create a new room butonunu tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.create_a_new_room_butonunu_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 601277300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "room number kutusuna \"745323478\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"745323478\"",
+                  "offset": 21
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_number_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 675401000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Room Type drop downdan \"DELUXE\" sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DELUXE\"",
+                  "offset": 23
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_type_drop_downdan_sec(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 574378400,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "price kutusuna \"10\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"10\"",
+                  "offset": 15
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.price_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 585548700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "description kutusuna \"Temiz Oda\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Temiz Oda\"",
+                  "offset": 21
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.description_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 588352200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "save butonunu tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.save_butonunu_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 531407600,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "kaydedildi alertini dogrula",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.kaydedildi_alertini_dogrula()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 128169000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "sayfayi_kapatir",
+            "match": {
+              "location": "techproed.stepDefinitions.AmazonStepDefinition.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MedunnaRoom"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Admin olarak giris yap",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11487688900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"https://www.medunna.com/\" adresine git",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.medunna.com/\"",
+                  "offset": 0
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.adresine_git(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 566861900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici simgesini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.kullanici_simgesini_tikla()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 605752200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sign in secenegini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.sign_in_secenegini_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595419200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "username kutusuna \"mark_twain\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mark_twain\"",
+                  "offset": 18
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.username_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 582978900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "password kutusuna \"Mark.123\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mark.123\"",
+                  "offset": 18
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.password_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 599878300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "remember me radio butonuna tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.remember_me_radio_butonuna_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 560719200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sign in butonuna tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.sign_in_butonuna_tikla()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-16T21:45:39.746Z",
+        "line": 27,
+        "name": "Oda olustur",
+        "description": "",
+        "id": "medunna-oda-olusturma;oda-olustur;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 553972300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "items&titles sekmesini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.items_titles_sekmesini_tikla()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 590110000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "room secenegini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_secenegini_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 581958700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "create a new room butonunu tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.create_a_new_room_butonunu_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 600398500,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "room number kutusuna \"624237442\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"624237442\"",
+                  "offset": 21
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_number_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 635489600,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Room Type drop downdan \"PREMIUM_DELUXE\" sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"PREMIUM_DELUXE\"",
+                  "offset": 23
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_type_drop_downdan_sec(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 572359900,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "price kutusuna \"11\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"11\"",
+                  "offset": 15
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.price_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 590528600,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "description kutusuna \"Güzel Oda\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Güzel Oda\"",
+                  "offset": 21
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.description_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 573323200,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "save butonunu tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.save_butonunu_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 532390700,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "kaydedildi alertini dogrula",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.kaydedildi_alertini_dogrula()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 140821100,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "sayfayi_kapatir",
+            "match": {
+              "location": "techproed.stepDefinitions.AmazonStepDefinition.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MedunnaRoom"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Admin olarak giris yap",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 7311234600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"https://www.medunna.com/\" adresine git",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.medunna.com/\"",
+                  "offset": 0
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.adresine_git(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 582250700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici simgesini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.kullanici_simgesini_tikla()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 594940100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sign in secenegini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.sign_in_secenegini_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 603675400,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "username kutusuna \"mark_twain\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mark_twain\"",
+                  "offset": 18
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.username_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 592586900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "password kutusuna \"Mark.123\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mark.123\"",
+                  "offset": 18
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.password_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 587838500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "remember me radio butonuna tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.remember_me_radio_butonuna_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 573414000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sign in butonuna tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.sign_in_butonuna_tikla()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-16T21:46:00.145Z",
+        "line": 28,
+        "name": "Oda olustur",
+        "description": "",
+        "id": "medunna-oda-olusturma;oda-olustur;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 724483900,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "items&titles sekmesini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.items_titles_sekmesini_tikla()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 592051500,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "room secenegini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_secenegini_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 584860100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "create a new room butonunu tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.create_a_new_room_butonunu_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 585619100,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "room number kutusuna \"453238858\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"453238858\"",
+                  "offset": 21
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_number_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 630303800,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Room Type drop downdan \"SUITE\" sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SUITE\"",
+                  "offset": 23
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_type_drop_downdan_sec(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 571663800,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "price kutusuna \"19\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"19\"",
+                  "offset": 15
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.price_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 598164700,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "description kutusuna \"Manzaralı Oda\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Manzaralı Oda\"",
+                  "offset": 21
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.description_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 565819900,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "save butonunu tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.save_butonunu_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 532894500,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "kaydedildi alertini dogrula",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.kaydedildi_alertini_dogrula()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 139042500,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "sayfayi_kapatir",
+            "match": {
+              "location": "techproed.stepDefinitions.AmazonStepDefinition.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MedunnaRoom"
+          }
+        ]
+      },
+      {
+        "line": 4,
+        "name": "Admin olarak giris yap",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 10004841900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "\"https://www.medunna.com/\" adresine git",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.medunna.com/\"",
+                  "offset": 0
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.adresine_git(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 566124700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "kullanici simgesini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.kullanici_simgesini_tikla()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 595405900,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "sign in secenegini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.sign_in_secenegini_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 590134700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "username kutusuna \"mark_twain\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mark_twain\"",
+                  "offset": 18
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.username_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 586743100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "password kutusuna \"Mark.123\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Mark.123\"",
+                  "offset": 18
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.password_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 583786000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "remember me radio butonuna tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.remember_me_radio_butonuna_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 560928900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "sign in butonuna tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.sign_in_butonuna_tikla()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2023-05-16T21:46:16.543Z",
+        "line": 29,
+        "name": "Oda olustur",
+        "description": "",
+        "id": "medunna-oda-olusturma;oda-olustur;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 554575300,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "items&titles sekmesini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.items_titles_sekmesini_tikla()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 598571900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "room secenegini tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_secenegini_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 574485100,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "create a new room butonunu tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.create_a_new_room_butonunu_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 604864400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "room number kutusuna \"354322371\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"354322371\"",
+                  "offset": 21
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_number_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 619552900,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Room Type drop downdan \"DAYCARE\" sec",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"DAYCARE\"",
+                  "offset": 23
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.room_type_drop_downdan_sec(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579947600,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "price kutusuna \"12\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"12\"",
+                  "offset": 15
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.price_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 595024800,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "description kutusuna \"Temiz Oda\" gir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Temiz Oda\"",
+                  "offset": 21
+                }
+              ],
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.description_kutusuna_gir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 579595400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "save butonunu tikla",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.save_butonunu_tikla()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 533407300,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "kaydedildi alertini dogrula",
+            "match": {
+              "location": "techproed.stepDefinitions.MedunnaStepDefinitions.kaydedildi_alertini_dogrula()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 138360900,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "sayfayi_kapatir",
+            "match": {
+              "location": "techproed.stepDefinitions.AmazonStepDefinition.sayfayi_kapatir()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@MedunnaRoom"
+          }
+        ]
+      }
+    ],
+    "name": "Medunna Oda olusturma",
+    "description": "",
+    "id": "medunna-oda-olusturma",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/day32_ScenarioOutline_Reports_DataTable/US001_MedunnaRoom.feature",
+    "tags": [
+      {
+        "name": "@MedunnaRoom",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
