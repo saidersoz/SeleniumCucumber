@@ -1,6 +1,6 @@
 @MedunnaRoom
 Feature: Medunna Oda olusturma
-
+  ​
   Background: Admin olarak giris yap
     Given "https://www.medunna.com/" adresine git
     When kullanici simgesini tikla
