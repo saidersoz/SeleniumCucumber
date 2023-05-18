@@ -25,14 +25,14 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = {"techproed.stepDefinitions"},//Bu parametre ile kodlarımızı yazdığımız stepDefinition
         //class'ının packege'ını belirtiriz
-        tags = "@MedunnaRoom",
+        tags = "@BlueRentalCarDataTableMap",
         dryRun = false    )
 /*
 features ===> features'ların olduğu packega'ın yolunu ver(ContentRoot)
 glue ====> stepDefinition'ların olduğu packega'ın yolunu ver(Source Root)
 tags ====> çalıştırmak istediğin grubu yaz
 dryRun = true ====> Missing Step Definition(Eksik) tespiti için kullanılır.
-dryRun = true ====>
+
  */
 
 

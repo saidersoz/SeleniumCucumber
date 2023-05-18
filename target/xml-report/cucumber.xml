@@ -1,87 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="75.145" tests="4" skipped="0" failures="0" errors="0">
-<testcase classname="Medunna Oda olusturma" name="Oda olustur - Example #1.1" time="19.199">
+<testsuite name="Cucumber" time="23.544" tests="1" skipped="0" failures="0" errors="0">
+<testcase classname="Data Table Test" name="BlueRentalCar Login Map" time="23.343">
 <system-out><![CDATA[
-Given "https://www.medunna.com/" adresine git...............................passed
-When kullanici simgesini tikla..............................................passed
-And sign in secenegini tikla................................................passed
-And username kutusuna "mark_twain" gir......................................passed
-And password kutusuna "Mark.123" gir........................................passed
-And remember me radio butonuna tikla........................................passed
-And sign in butonuna tikla..................................................passed
-When items&titles sekmesini tikla...........................................passed
-And room secenegini tikla...................................................passed
-And create a new room butonunu tikla........................................passed
-And room number kutusuna "745323478" gir....................................passed
-And Room Type drop downdan "DELUXE" sec.....................................passed
-And price kutusuna "10" gir.................................................passed
-And description kutusuna "Temiz Oda" gir....................................passed
-And save butonunu tikla.....................................................passed
-Then kaydedildi alertini dogrula............................................passed
-And sayfayi_kapatir.........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Medunna Oda olusturma" name="Oda olustur - Example #1.2" time="20.378">
-<system-out><![CDATA[
-Given "https://www.medunna.com/" adresine git...............................passed
-When kullanici simgesini tikla..............................................passed
-And sign in secenegini tikla................................................passed
-And username kutusuna "mark_twain" gir......................................passed
-And password kutusuna "Mark.123" gir........................................passed
-And remember me radio butonuna tikla........................................passed
-And sign in butonuna tikla..................................................passed
-When items&titles sekmesini tikla...........................................passed
-And room secenegini tikla...................................................passed
-And create a new room butonunu tikla........................................passed
-And room number kutusuna "624237442" gir....................................passed
-And Room Type drop downdan "PREMIUM_DELUXE" sec.............................passed
-And price kutusuna "11" gir.................................................passed
-And description kutusuna "Güzel Oda" gir....................................passed
-And save butonunu tikla.....................................................passed
-Then kaydedildi alertini dogrula............................................passed
-And sayfayi_kapatir.........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Medunna Oda olusturma" name="Oda olustur - Example #1.3" time="16.381">
-<system-out><![CDATA[
-Given "https://www.medunna.com/" adresine git...............................passed
-When kullanici simgesini tikla..............................................passed
-And sign in secenegini tikla................................................passed
-And username kutusuna "mark_twain" gir......................................passed
-And password kutusuna "Mark.123" gir........................................passed
-And remember me radio butonuna tikla........................................passed
-And sign in butonuna tikla..................................................passed
-When items&titles sekmesini tikla...........................................passed
-And room secenegini tikla...................................................passed
-And create a new room butonunu tikla........................................passed
-And room number kutusuna "453238858" gir....................................passed
-And Room Type drop downdan "SUITE" sec......................................passed
-And price kutusuna "19" gir.................................................passed
-And description kutusuna "Manzaralı Oda" gir................................passed
-And save butonunu tikla.....................................................passed
-Then kaydedildi alertini dogrula............................................passed
-And sayfayi_kapatir.........................................................passed
-]]></system-out>
-</testcase>
-<testcase classname="Medunna Oda olusturma" name="Oda olustur - Example #1.4" time="18.875">
-<system-out><![CDATA[
-Given "https://www.medunna.com/" adresine git...............................passed
-When kullanici simgesini tikla..............................................passed
-And sign in secenegini tikla................................................passed
-And username kutusuna "mark_twain" gir......................................passed
-And password kutusuna "Mark.123" gir........................................passed
-And remember me radio butonuna tikla........................................passed
-And sign in butonuna tikla..................................................passed
-When items&titles sekmesini tikla...........................................passed
-And room secenegini tikla...................................................passed
-And create a new room butonunu tikla........................................passed
-And room number kutusuna "354322371" gir....................................passed
-And Room Type drop downdan "DAYCARE" sec....................................passed
-And price kutusuna "12" gir.................................................passed
-And description kutusuna "Temiz Oda" gir....................................passed
-And save butonunu tikla.....................................................passed
-Then kaydedildi alertini dogrula............................................passed
-And sayfayi_kapatir.........................................................passed
+Given kullanici blue rental car sayfasina gider.............................passed
+When login olur map.........................................................passed
+Then sayfayi_kapatir........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
