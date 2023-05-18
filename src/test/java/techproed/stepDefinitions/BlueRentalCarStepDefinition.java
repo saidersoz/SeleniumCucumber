@@ -10,13 +10,17 @@ import techproed.utilities.Driver;
 import java.util.List;
 import java.util.Map;
 
+import static org.junit.Assert.assertTrue;
+
 public class BlueRentalCarStepDefinition {
 
     BlueRentalCarPage blueRentalCarPage = new BlueRentalCarPage();
 
     @Given("kullanici blue rental car sayfasina gider")
     public void kullanici_blue_rental_car_sayfasina_gider() {
+
         Driver.getDriver().get(ConfigReader.getProperty("blueRentACarUrl"));
+        assertTrue(false);
     }
 
     @When("login olur")

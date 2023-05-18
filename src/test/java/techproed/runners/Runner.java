@@ -23,7 +23,7 @@ import org.junit.runner.RunWith;
 
         monochrome = false, //Konsolu okunaklı hale getirir!
         features = "src/test/resources/features",
-        glue = {"techproed.stepDefinitions"},//Bu parametre ile kodlarımızı yazdığımız stepDefinition
+        glue = {"techproed.stepDefinitions", "techproed/hooks"},//Bu parametre ile kodlarımızı yazdığımız stepDefinition
         //class'ının packege'ını belirtiriz
         tags = "@BlueRentalCarDataTableMap",
         dryRun = false    )
