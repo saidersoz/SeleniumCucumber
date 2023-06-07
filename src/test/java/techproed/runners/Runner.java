@@ -25,7 +25,7 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = {"techproed.stepDefinitions", "techproed/hooks"},//Bu parametre ile kodlarımızı yazdığımız stepDefinition
         //class'ının packege'ını belirtiriz
-        tags = "@BlueRentalCarDataTableMap",
+        tags = "@hooks",
         dryRun = false    )
 /*
 features ===> features'ların olduğu packega'ın yolunu ver(ContentRoot)
