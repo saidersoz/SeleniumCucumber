@@ -42,7 +42,7 @@ public class TechproStepDefinition {
 
     @And("kullanici_tum_sayfanin_resmini_alir")
     public void kullanici_tum_sayfanin_resmini_alir() {
-        ReusableMethods.tumSayfaResmi("TumSayfaResmi");
+        ReusableMethods.tumSayfaResmi();
     }
 
 
