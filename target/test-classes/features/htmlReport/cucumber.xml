@@ -1,38 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="0.41" tests="5" skipped="0" failures="0" errors="0">
-<testcase classname="US003_Amazon_Testi" name="TC01_Amazonda_Urun_aratma" time="0.108">
+<testsuite name="Cucumber" time="11.305" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="saidgoogleyegit" name="SE001_Said" time="11.045">
+<failure/>
 <system-out><![CDATA[
-Given kullanici_"amazon_Url"_sayfasina_gider................................passed
-And arama_kutusunda_"iphone"_aratir.........................................passed
-And basligin "nokia" icerdigini dogrular....................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US003_Amazon_Testi" name="TC02_Amazonda_Urun_aratma" time="0.012">
-<system-out><![CDATA[
-Given kullanici_"amazon_Url"_sayfasina_gider................................passed
-And arama_kutusunda_"samsung"_aratir........................................passed
-And basligin "samsung" icerdigini dogrular..................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US003_Amazon_Testi" name="TC03_Amazonda_Urun_aratma" time="0.003">
-<system-out><![CDATA[
-Given kullanici_"amazon_Url"_sayfasina_gider................................passed
-And arama_kutusunda_"nokia"_aratir..........................................passed
-And basligin "iphone" icerdigini dogrular...................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US003_Amazon_Testi" name="TC04_Amazonda_Urun_aratma" time="0.006">
-<system-out><![CDATA[
-Given kullanici_"amazon_Url"_sayfasina_gider................................passed
-And arama_kutusunda_"motorola"_aratir.......................................passed
-And basligin "motorola" icerdigini dogrular.................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US003_Amazon_Testi" name="TC05_Amazonda_Urun_aratma" time="0.005">
-<system-out><![CDATA[
-Given kullanici_"amazon_Url"_sayfasina_gider................................passed
-And arama_kutusunda_"motorola"_aratir.......................................passed
-And basligin "motorola" icerdigini dogrular.................................passed
+Given kullanici_amazon_sayfasina_gider......................................passed
+And arama_kutusunda_said_aratir.............................................undefined
+And sayfayi_kapatir.........................................................skipped
 ]]></system-out>
 </testcase>
 </testsuite>

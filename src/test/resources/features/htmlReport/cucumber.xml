@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="11.305" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="saidgoogleyegit" name="SE001_Said" time="11.045">
+<failure/>
+<system-out><![CDATA[
+Given kullanici_amazon_sayfasina_gider......................................passed
+And arama_kutusunda_said_aratir.............................................undefined
+And sayfayi_kapatir.........................................................skipped
+]]></system-out>
+</testcase>
+</testsuite>

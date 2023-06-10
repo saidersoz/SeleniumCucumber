@@ -20,7 +20,7 @@ public class BlueRentalCarStepDefinition {
     @Given("kullanici blue rental car sayfasini gider")
     public void kullanici_blue_rental_car_sayfasini_gider() {
 
-        Driver.getDriver().get(ConfigReader.getProperty("bluerentalcar_Url"));
+        Driver.getDriver().get(ConfigReader.getProperty("blueRentACarUrl"));
 
     }
 

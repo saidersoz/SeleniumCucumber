@@ -60,4 +60,10 @@ public class AmazonStepDefinition {
     }
 
 
+    @And("arama_kutusunda_said_aratir")
+    public void arama_kutusunda_said_aratir() {
+        amazonPage = new AmazonPage();
+        amazonPage.aramaKutusu.sendKeys("said"+Keys.ENTER);
+        ReusableMethods.bekle(2);
+    }
 }
