@@ -8,9 +8,10 @@ import techproed.utilities.Driver;
 
 public class GoogleStepDefinition {
     GooglePage googlePage;
+
     @Given("kullanici googleda {string} aratir")
     public void kullanici_googleda_aratir(String string) {
-        googlePage=new GooglePage();
+        googlePage = new GooglePage();
         googlePage.aramaKutusu.sendKeys(string, Keys.ENTER);
     }
 

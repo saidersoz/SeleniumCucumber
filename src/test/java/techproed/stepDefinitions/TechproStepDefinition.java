@@ -12,6 +12,7 @@ import techproed.utilities.ReusableMethods;
 
 public class TechproStepDefinition {
     TechproPage techproPage;
+
     @Given("kullanici_techpro_sayfasina_gider")
     public void kullanici_techpro_sayfasina_gider() {
         Driver.getDriver().get(ConfigReader.getProperty("techproed_Url"));
@@ -19,7 +20,7 @@ public class TechproStepDefinition {
 
     @And("arama_kutusunda_QA_aratir")
     public void arama_kutusunda_qa_aratir() {
-        techproPage=new TechproPage();
+        techproPage = new TechproPage();
         techproPage.searchBox.sendKeys("qa", Keys.ENTER);
 
     }
@@ -31,7 +32,7 @@ public class TechproStepDefinition {
 
     @Then("cikan_reklam_kapatilir")
     public void cikan_reklam_kapatilir() {
-        techproPage=new TechproPage();
+        techproPage = new TechproPage();
         techproPage.reklam.click();
     }
 
@@ -48,8 +49,8 @@ public class TechproStepDefinition {
 
     @And("searchBoxda_{string}_aratir")
     public void searchboxda__aratir(String arananKelime) {
-        techproPage=new TechproPage();
-        techproPage.searchBox.sendKeys(arananKelime,Keys.ENTER);
+        techproPage = new TechproPage();
+        techproPage.searchBox.sendKeys(arananKelime, Keys.ENTER);
     }
 
     @And("sayfa_basliginin_{string}_icerdigini_test_eder")

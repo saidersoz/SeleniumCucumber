@@ -12,10 +12,12 @@ import techproed.utilities.ReusableMethods;
 
 public class AmazonStepDefinition {
     AmazonPage amazonPage;
+
     @And("sayfayi_kapatir")
     public void sayfayi_kapatir() {
         Driver.closeDriver();
     }
+
     @Given("kullanici_amazon_sayfasina_gider")
     public void kullanici_amazon_sayfasina_gider() {
         Driver.getDriver().get(ConfigReader.getProperty("amazon_Url"));
@@ -49,7 +51,7 @@ public class AmazonStepDefinition {
     @Then("arama_kutusunda_{string}_aratir")
     public void arama_kutusunda__aratir(String arananMetin) {
         amazonPage = new AmazonPage();
-        amazonPage.aramaKutusu.sendKeys(arananMetin,Keys.ENTER);
+        amazonPage.aramaKutusu.sendKeys(arananMetin, Keys.ENTER);
     }
 
     @And("kullanici {int} saniye bekler")
