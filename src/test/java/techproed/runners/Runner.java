@@ -26,7 +26,7 @@ senaryoyu çalıştırabiliriz
                  dryRun = false,//dryRun=false Test adımlarını kontrol eder ve browser'ı çalıştırır
                                //dryRun=True Test adımlarını sadece kontrol eder
                                //default olarak false'tur
-                 monochrome = true//pretty ifadesinden sonra monochrome = true kullanırsak senerio adımlarını tekrenk olark siyah gösterir
+                 monochrome = true//pretty ifadesinden sonra monochrome = true kullanırsak senerio adımlarını tek renk olark siyah gösterir
                                   //monochrome = false kullanırsak renkli gösterir
                                   //default false
 )
