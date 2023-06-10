@@ -6,11 +6,9 @@ import org.openqa.selenium.support.PageFactory;
 import techproed.utilities.Driver;
 
 public class BlueRentalCarPage {
-
-    public BlueRentalCarPage() {
-        PageFactory.initElements(Driver.getDriver(), this);
+    public BlueRentalCarPage(){
+        PageFactory.initElements(Driver.getDriver(),this);
     }
-
     @FindBy(xpath = "//a[@href='/login']")
     public WebElement loginButton;
 
@@ -32,4 +30,9 @@ public class BlueRentalCarPage {
     @FindBy(xpath = "//button[.='OK']")
     public WebElement OK;
 
+    @FindBy(xpath = "//*[text()='Profile']")
+    public WebElement profile;
+
+    @FindBy(xpath = "//em")
+    public WebElement verifyEmail;
 }
