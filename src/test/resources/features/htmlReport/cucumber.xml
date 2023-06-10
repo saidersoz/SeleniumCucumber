@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="11.305" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="saidgoogleyegit" name="SE001_Said" time="11.045">
-<failure/>
+<testsuite name="Cucumber" time="28.847" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="US002_TechProEducation_Testi" name="TC01_TechProEducation_Sayfasi_Testi" time="17.655">
+<system-out><![CDATA[
+Given kullanici_techpro_sayfasina_gider.....................................passed
+Then cikan_reklam_kapatilir.................................................passed
+And arama_kutusunda_QA_aratir...............................................passed
+And sayfa_basliginin_qa_icerdigini_test_eder................................passed
+And sayfayi_kapatir.........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="US003_Amazon_Sayfasinda_Urun_Aratma" name="TC03_Amazon_sayfasinda_SQL_Aratma" time="10.901">
 <system-out><![CDATA[
 Given kullanici_amazon_sayfasina_gider......................................passed
-And arama_kutusunda_said_aratir.............................................undefined
-And sayfayi_kapatir.........................................................skipped
+And arama_kutusunda_sql_aratir..............................................passed
+And sayfayi_kapatir.........................................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
