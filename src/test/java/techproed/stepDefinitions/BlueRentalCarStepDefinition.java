@@ -125,4 +125,18 @@ public class BlueRentalCarStepDefinition {
         }
 
     }
+
+    @Given("kullanici_blueRentACarUrl_sayfasina_gider_exceldeki_verilerle_login_olur")
+    public void kullanici_bluerentacarurl_sayfasina_gider_exceldeki_verilerle_login_olur(String url, String sayfaAdi) {
+        System.out.println("BlueRentalPage Sayfasına Gidildi Excelde ki Veriler ile Login Olundu");
+       // blueRentalCarPage = new BlueRentalCarPage();
+       // ExcelUtils excelUtils = new ExcelUtils("src/test/resources/mysmoketestdata.xlsx", sayfaAdi);
+       // Driver.getDriver().get(ConfigReader.getProperty(url));
+       // for (int i = 1; i <= excelUtils.rowCount(); i++) {
+       //     String email = excelUtils.getCellData(i, 0);
+       //     String password = excelUtils.getCellData(i, 1);
+       //     blueRentalCarPage.emailBox.sendKeys(email + Keys.TAB, password + Keys.ENTER);
+       //     ReusableMethods.bekle(1);
+       // }
+    }
 }
