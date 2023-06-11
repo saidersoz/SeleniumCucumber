@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="28.187" tests="1" skipped="0" failures="1" errors="0">
-<testcase classname="US002_TechProEducation_Testi_Hooks" name="TC01_TechProEducation_Sayfasi_Testi" time="27.324">
+<testsuite name="Cucumber" time="14.352" tests="1" skipped="0" failures="1" errors="0">
+<testcase classname="US002_TechProEducation_Testi_Hooks" name="TC01_TechProEducation_Sayfasi_Testi" time="14.076">
 <failure type="java.lang.AssertionError">
 <![CDATA[java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
