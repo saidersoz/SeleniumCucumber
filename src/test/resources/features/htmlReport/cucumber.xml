@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="Cucumber" time="59.495" tests="5" skipped="0" failures="2" errors="0">
-<testcase classname="US003_Amazon_Testi" name="TC01_Amazonda_Urun_aratma" time="12.03">
+<testsuite name="Cucumber" time="33.826" tests="2" skipped="0" failures="1" errors="0">
+<testcase classname="US003_Amazon_Testi" name="TC01_Amazonda_Urun_aratma" time="20.204">
 <failure type="java.lang.AssertionError">
 <![CDATA[java.lang.AssertionError
 	at org.junit.Assert.fail(Assert.java:87)
@@ -16,41 +16,11 @@ And arama_kutusunda_"iphone"_aratir.........................................pass
 And basligin "nokia" icerdigini dogrular....................................failed
 ]]></system-out>
 </testcase>
-<testcase classname="US003_Amazon_Testi" name="TC02_Amazonda_Urun_aratma" time="11.071">
-<system-out><![CDATA[
-Given kullanici_"amazon_Url"_sayfasina_gider................................passed
-And arama_kutusunda_"samsung"_aratir........................................passed
-And basligin "samsung" icerdigini dogrular..................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US003_Amazon_Testi" name="TC03_Amazonda_Urun_aratma" time="10.826">
-<failure type="java.lang.AssertionError">
-<![CDATA[java.lang.AssertionError
-	at org.junit.Assert.fail(Assert.java:87)
-	at org.junit.Assert.assertTrue(Assert.java:42)
-	at org.junit.Assert.assertTrue(Assert.java:53)
-	at techproed.stepDefinitions.GoogleStepDefinition.basligin_icerdigini_dogrular(GoogleStepDefinition.java:20)
-	at ✽.basligin "iphone" icerdigini dogrular(file:///C:/Users/ASUS/IdeaProjects/B129CucumberProject/src/test/resources/features/day35_Excel_Rerun/US003_Rerun.feature:17)
-]]>
-</failure>
+<testcase classname="US003_Amazon_Testi" name="TC03_Amazonda_Urun_aratma" time="12.646">
 <system-out><![CDATA[
 Given kullanici_"amazon_Url"_sayfasina_gider................................passed
 And arama_kutusunda_"nokia"_aratir..........................................passed
-And basligin "iphone" icerdigini dogrular...................................failed
-]]></system-out>
-</testcase>
-<testcase classname="US003_Amazon_Testi" name="TC04_Amazonda_Urun_aratma" time="10.752">
-<system-out><![CDATA[
-Given kullanici_"amazon_Url"_sayfasina_gider................................passed
-And arama_kutusunda_"motorola"_aratir.......................................passed
-And basligin "motorola" icerdigini dogrular.................................passed
-]]></system-out>
-</testcase>
-<testcase classname="US003_Amazon_Testi" name="TC05_Amazonda_Urun_aratma" time="14.353">
-<system-out><![CDATA[
-Given kullanici_"amazon_Url"_sayfasina_gider................................passed
-And arama_kutusunda_"motorola"_aratir.......................................passed
-And basligin "motorola" icerdigini dogrular.................................passed
+And basligin "nokia" icerdigini dogrular....................................passed
 ]]></system-out>
 </testcase>
 </testsuite>
