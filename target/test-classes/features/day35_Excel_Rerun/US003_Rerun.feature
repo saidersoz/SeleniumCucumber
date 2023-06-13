@@ -14,7 +14,7 @@ Feature: US003_Amazon_Testi
   Scenario:TC03_Amazonda_Urun_aratma
     Given kullanici_"amazon_Url"_sayfasina_gider
     And arama_kutusunda_"nokia"_aratir
-    And basligin "nokia" icerdigini dogrular
+    And basligin "iphone" icerdigini dogrular
     #Bilerek fail aldık
 
   Scenario:TC04_Amazonda_Urun_aratma
