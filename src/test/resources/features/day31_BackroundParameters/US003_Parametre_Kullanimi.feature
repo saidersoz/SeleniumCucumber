@@ -1,6 +1,6 @@
 Feature: US003_TechProEducation_Testi
   Background: Kullanici TechproEducation Sayfasina Gider
-    Given kullanici_"https://techproeducation.com"_sayfasina_gider
+    Given kullanici_"techproed_Url"_sayfasina_gider
     #https://techproeducation.com yerine .properties dosyasındaki key'de kullanılabilir
   #Eğer .properties dosyasındaki key(url)'i kullanmak istersek, stepDefinition class'ımızda parametre
   #istenen yere ConfigReader.getProperty(Key) methodu ile giriş yapmalıyız
